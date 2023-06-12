@@ -82,6 +82,9 @@ MonoBehaviour:
   player:
     position: {x: 1.406, y: 0.312, z: -21.37}
     rotation: {x: 0, y: 0, z: 0, w: 0}
+  gameController: {fileID: 0}
+  popupcanvas: {fileID: 1054808877313183136, guid: b5f73b1db59c2ec49afd08f7ccc949eb,
+    type: 3}
 --- !u!1001 &2996188979316244303
 PrefabInstance:
   m_ObjectHideFlags: 0
