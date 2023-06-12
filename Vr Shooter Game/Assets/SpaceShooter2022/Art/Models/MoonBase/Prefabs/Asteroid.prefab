@@ -79,6 +79,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   astroidExplosion: {fileID: 5587333519594629070, guid: c34c359c899647148a75c1c18db29282,
     type: 3}
+  player:
+    position: {x: 1.406, y: 0.312, z: -21.37}
+    rotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1001 &2996188979316244303
 PrefabInstance:
   m_ObjectHideFlags: 0
