@@ -19,6 +19,10 @@ public class GameController : MonoBehaviour
 
     [SerializeField] private TextMeshProUGUI Highscore;
     private int highscore;
+
+    [SerializeField]private AudioSource AudioSource;
+    [SerializeField] private AudioClip[] startAudio;
+
     public enum GameState
     {
         Waiting,
@@ -32,13 +36,20 @@ public class GameController : MonoBehaviour
 
     private void Awake()
     {
+       
+
+        
+
         CurrentGameStatus = GameState.Waiting;
+
+
 
         if (PlayerPrefs.HasKey("HighScore"))
         {
             Highscore.text = PlayerPrefs.GetInt("HighScore").ToString();
-        }
+        }       
     }
+
     void Update()
     {
         if (CurrentGameStatus == GameState.Playing)
@@ -66,6 +77,8 @@ public class GameController : MonoBehaviour
     public void StartGame()
     {
         CurrentGameStatus = GameState.Playing;
+        AudioSource.clip = startAudio[1];
+        AudioSource.Play();
     }
 
     public void GameOver()
@@ -81,11 +94,15 @@ public class GameController : MonoBehaviour
 
             Highscore.text = PlayerScore.ToString();
         }
+
+        AudioSource.clip = startAudio[2];
+        AudioSource.Play();
+        AudioSource.loop = false;
     }
 
     public void resetGame()
     {
-        CurrentGameStatus=GameState.Waiting;
+        CurrentGameStatus = GameState.Waiting;
 
 
         //timer reset
@@ -97,5 +114,11 @@ public class GameController : MonoBehaviour
         // score reset
         PlayerScore = 0;
         score.text = "o";
+
+
+        AudioSource.clip = startAudio[0];
+        AudioSource.Play();
     }
+    
+
 }

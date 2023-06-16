@@ -191,7 +191,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 0
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -357,7 +357,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GunAnimator: {fileID: 2193720264661194382}
   GunSource: {fileID: 4886068009083919179}
-  GunClip: {fileID: 8300000, guid: fa5f15d5c001e1249a46f30914256f91, type: 3}
+  GunClip: {fileID: 8300000, guid: 8cb9185bac68d7a46a4778c037ea6f14, type: 3}
   raycastPoint: {fileID: 7294907878592964179}
 --- !u!82 &4886068009083919179
 AudioSource:
@@ -524,7 +524,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9152328817968915714}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0045, y: 0.0581, z: 0.1967}
+  m_LocalPosition: {x: 0.00089, y: 0.0581, z: 0.1967}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

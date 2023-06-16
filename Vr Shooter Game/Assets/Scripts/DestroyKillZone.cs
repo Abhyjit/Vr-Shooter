@@ -18,7 +18,8 @@ public class DestroyKillZone : MonoBehaviour
     {
        if (other.gameObject.tag == "Asteroid")
         {
-            Destroy(other.gameObject);
+            other.GetComponent<Animator>().SetTrigger("FadeOut");
+            Destroy(other.gameObject, 3f);
         }
     }
 }

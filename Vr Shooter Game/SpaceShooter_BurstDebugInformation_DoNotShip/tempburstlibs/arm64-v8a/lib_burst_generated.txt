@@ -177,6 +177,7 @@ Library: lib_burst_generated
 --root-assembly=D:\Vr game\Vr-Shooter\Vr Shooter Game\Temp\StagingArea\Data\Managed\Unity.Mathematics.dll
 --root-assembly=D:\Vr game\Vr-Shooter\Vr Shooter Game\Temp\StagingArea\Data\Managed\Unity.Services.Core.Scheduler.dll
 --root-assembly=D:\Vr game\Vr-Shooter\Vr Shooter Game\Temp\StagingArea\Data\Managed\Unity.Services.Core.Device.dll
+--root-assembly=D:\Vr game\Vr-Shooter\Vr Shooter Game\Temp\StagingArea\Data\Managed\Assembly-CSharp.dll
 --root-assembly=D:\Vr game\Vr-Shooter\Vr Shooter Game\Temp\StagingArea\Data\Managed\Unity.Services.Core.Analytics.dll
 --root-assembly=D:\Vr game\Vr-Shooter\Vr Shooter Game\Temp\StagingArea\Data\Managed\Unity.XR.Management.dll
 --root-assembly=D:\Vr game\Vr-Shooter\Vr Shooter Game\Temp\StagingArea\Data\Managed\Unity.Services.Core.Configuration.dll
@@ -189,7 +190,6 @@ Library: lib_burst_generated
 --root-assembly=D:\Vr game\Vr-Shooter\Vr Shooter Game\Temp\StagingArea\Data\Managed\Unity.Services.Core.Registration.dll
 --root-assembly=D:\Vr game\Vr-Shooter\Vr Shooter Game\Temp\StagingArea\Data\Managed\Unity.Subsystem.Registration.dll
 --root-assembly=D:\Vr game\Vr-Shooter\Vr Shooter Game\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
---root-assembly=D:\Vr game\Vr-Shooter\Vr Shooter Game\Temp\StagingArea\Data\Managed\Assembly-CSharp.dll
 --root-assembly=D:\Vr game\Vr-Shooter\Vr Shooter Game\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.Core.ShaderLibrary.dll
 --root-assembly=D:\Vr game\Vr-Shooter\Vr Shooter Game\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.Universal.Shaders.dll
 --assembly-folder=D:\Vr game\Vr-Shooter\Vr Shooter Game\Temp\StagingArea\Data\Managed\
