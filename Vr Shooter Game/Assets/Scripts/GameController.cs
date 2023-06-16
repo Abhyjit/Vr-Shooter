@@ -17,6 +17,8 @@ public class GameController : MonoBehaviour
 
     [SerializeField] private GameObject Gameover;
 
+    [SerializeField] private TextMeshProUGUI Highscore;
+    private int highscore;
     public enum GameState
     {
         Waiting,
@@ -31,6 +33,11 @@ public class GameController : MonoBehaviour
     private void Awake()
     {
         CurrentGameStatus = GameState.Waiting;
+
+        if (PlayerPrefs.HasKey("HighScore"))
+        {
+            Highscore.text = PlayerPrefs.GetInt("HighScore").ToString();
+        }
     }
     void Update()
     {
@@ -67,6 +74,13 @@ public class GameController : MonoBehaviour
 
 
         Gameover.SetActive(true);
+
+        if( PlayerScore > PlayerPrefs.GetInt("HighScore" ) )
+        {
+            PlayerPrefs.SetInt("HighScore", PlayerScore);
+
+            Highscore.text = PlayerScore.ToString();
+        }
     }
 
     public void resetGame()
