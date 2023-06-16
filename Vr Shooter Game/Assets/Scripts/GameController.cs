@@ -15,6 +15,8 @@ public class GameController : MonoBehaviour
     private int PlayerScore;
 
 
+    [SerializeField] private GameObject Gameover;
+
     public enum GameState
     {
         Waiting,
@@ -42,6 +44,10 @@ public class GameController : MonoBehaviour
         timerImage.fillAmount = CurrentFillAmount - (Time.deltaTime / GameTime);
 
         CurrentFillAmount = timerImage.fillAmount;
+        if(CurrentFillAmount <= 0 )
+        {
+            GameOver();
+        }
 
     }
     public void UpdatePlayerScore(int AsteroidHitScore)
@@ -53,5 +59,29 @@ public class GameController : MonoBehaviour
     public void StartGame()
     {
         CurrentGameStatus = GameState.Playing;
+    }
+
+    public void GameOver()
+    {
+        CurrentGameStatus = GameState.GameOver;
+
+
+        Gameover.SetActive(true);
+    }
+
+    public void resetGame()
+    {
+        CurrentGameStatus=GameState.Waiting;
+
+
+        //timer reset
+
+        CurrentFillAmount = 1f;
+        timerImage.fillAmount = 1f;
+
+
+        // score reset
+        PlayerScore = 0;
+        score.text = "o";
     }
 }
