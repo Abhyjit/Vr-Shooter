@@ -519,6 +519,8 @@ MonoBehaviour:
   GunSource: {fileID: 4886068009083919179}
   GunClip: {fileID: 8300000, guid: 8cb9185bac68d7a46a4778c037ea6f14, type: 3}
   raycastPoint: {fileID: 7294907878592964179}
+  bulletPrefab: {fileID: 4016273362745119833, guid: 769dd651998a4594f9f3b86844decaff,
+    type: 3}
 --- !u!82 &4886068009083919179
 AudioSource:
   m_ObjectHideFlags: 0

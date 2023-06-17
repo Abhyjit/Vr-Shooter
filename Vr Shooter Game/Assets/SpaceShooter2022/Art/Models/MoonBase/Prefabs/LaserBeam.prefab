@@ -9,10 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4016273362745119834}
-  - component: {fileID: 4016273362745119835}
-  - component: {fileID: 4016273362745119832}
   - component: {fileID: 462966207}
-  - component: {fileID: 462966206}
+  - component: {fileID: -4143738856854964005}
   m_Layer: 11
   m_Name: LaserBeam
   m_TagString: Laser
@@ -36,35 +34,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &4016273362745119835
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4016273362745119833}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.008024954, y: 0.02915908, z: 0.16856098}
-  m_Center: {x: 0, y: 0, z: 0.1}
---- !u!54 &4016273362745119832
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4016273362745119833}
-  serializedVersion: 2
-  m_Mass: 0.25
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 1
 --- !u!96 &462966207
 TrailRenderer:
   serializedVersion: 2
@@ -107,7 +76,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.2
+  m_Time: 0.01
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -162,9 +131,9 @@ TrailRenderer:
     shadowBias: 0.5
     generateLightingData: 0
   m_MinVertexDistance: 0.2
-  m_Autodestruct: 0
+  m_Autodestruct: 1
   m_Emitting: 1
---- !u!114 &462966206
+--- !u!114 &-4143738856854964005
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

@@ -13,6 +13,9 @@ public class GunScript : MonoBehaviour
     //raycast
     public Transform raycastPoint;
     private RaycastHit hit;
+
+    // bullet instantiate 
+   [SerializeField] private GameObject bulletPrefab;
     
 
     private void Awake()
@@ -27,6 +30,11 @@ public class GunScript : MonoBehaviour
 
         //Playaudio
         GunSource.PlayOneShot(GunClip);//play the clip
+
+        // instantiate bullet
+      Instantiate(bulletPrefab, raycastPoint.position,raycastPoint.rotation);
+        
+        
 
         //for raycast
         if (Physics.Raycast(raycastPoint.position, raycastPoint.forward, out hit, 800f))  // if is used to check if the raycast has hit any objects
