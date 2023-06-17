@@ -13,6 +13,7 @@ public class GunScript : MonoBehaviour
     //raycast
     public Transform raycastPoint;
     private RaycastHit hit;
+    
 
     private void Awake()
     {
