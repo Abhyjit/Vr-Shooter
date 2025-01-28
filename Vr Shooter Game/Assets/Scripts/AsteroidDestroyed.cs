@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Unity.Mathematics;
 using UnityEngine;
 using TMPro;
-
+//script for destroying asteroid upon hitting by raycast
 public class AsteroidDestroyed : MonoBehaviour
 {
     [SerializeField] private GameObject astroidExplosion;

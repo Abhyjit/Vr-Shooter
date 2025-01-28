@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//script for gun mechanics
 public class GunScript : MonoBehaviour
 {
     //animation

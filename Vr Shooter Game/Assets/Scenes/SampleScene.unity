@@ -126,6 +126,86 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &7962514
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 596442420}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: e4f01919de907934ab1aea4976e7f412,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e4f01919de907934ab1aea4976e7f412,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -22.872936
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e4f01919de907934ab1aea4976e7f412,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 24.67
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e4f01919de907934ab1aea4976e7f412,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -26.41
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e4f01919de907934ab1aea4976e7f412,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e4f01919de907934ab1aea4976e7f412,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e4f01919de907934ab1aea4976e7f412,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e4f01919de907934ab1aea4976e7f412,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e4f01919de907934ab1aea4976e7f412,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e4f01919de907934ab1aea4976e7f412,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: e4f01919de907934ab1aea4976e7f412,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: e4f01919de907934ab1aea4976e7f412,
+        type: 3}
+      propertyPath: m_Name
+      value: Moonbase_OxygenTanks (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: e4f01919de907934ab1aea4976e7f412,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e4f01919de907934ab1aea4976e7f412, type: 3}
+--- !u!4 &7962515 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: e4f01919de907934ab1aea4976e7f412,
+    type: 3}
+  m_PrefabInstance: {fileID: 7962514}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &55087905
 GameObject:
   m_ObjectHideFlags: 0
@@ -1958,6 +2038,7 @@ Transform:
   - {fileID: 1022274567}
   - {fileID: 1425488304}
   - {fileID: 1953015033}
+  - {fileID: 7962515}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

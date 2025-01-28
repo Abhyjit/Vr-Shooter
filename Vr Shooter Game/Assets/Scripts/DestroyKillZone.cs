@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+//script for destroying asteroids
+
 
 public class DestroyKillZone : MonoBehaviour
 {

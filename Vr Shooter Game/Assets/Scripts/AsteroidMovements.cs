@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//Script for asteroid Movement
 public class AsteroidMovements : MonoBehaviour
 {
     public float Maxspeed;
